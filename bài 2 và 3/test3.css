@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color : rgb(165, 165, 209);
+}
+
+h1 {
+    margin: 110px 0 40px 100px;
+    font-size: 50px;
+}
+
+.bighead {
+    display: flex;
+    margin: 0 100px 50px 100px;
+}
+
+.big1 {
+    flex: 1;
+}
+
+.big2 {
+    flex: 1;
+    font-family: sans-serif;
+}
+
+.bigbody {
+    display: flex;
+    margin: 0 100px 0 100px;
+    gap: 50px;
+}
+
+.bigbody1 {
+    flex: 1;
+}
+
+.bigbody2 {
+    flex: 1;
+}
+
+.bigbody3 {
+    flex: 1;
+}
+
+.girlxinh {
+    clip-path: circle();
+}
+
+.fontfamily {
+    font-family: sans-serif;
+}
+
+.noot {
+    font-size: 20px;
+    color: black;
+    padding-right: 25px;
+}
