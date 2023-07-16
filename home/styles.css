@@ -6,6 +6,8 @@
 
 body {
   min-height: 1000px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 body .banner-bg {
@@ -15,7 +17,7 @@ body .banner-bg {
 
 #header {
   width: 100%;
-  height: 76px;
+  height: 96px;
   padding: 0 15px;
   position: absolute;
   top: 0;
@@ -23,17 +25,21 @@ body .banner-bg {
   display: flex;
   cursor: pointer;
   box-shadow: 0 0.3px #fff;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+#header .brand {
+  display: flex;
 }
 
 #header .logo-brand {
   padding: 10px;
-  height: 76px;
+  height: 96px;
 }
 
 #header .name-brand {
   color: #fff;
-  line-height: 76px;
+  line-height: 96px;
 }
 
 #nav-bar-header {
@@ -49,7 +55,7 @@ body .banner-bg {
 #nav-bar-header li a {
   color: #fff;
   text-decoration: none;
-  line-height: 76px;
+  line-height: 96px;
   padding: 0 25px;
   font-size: 15px;
 }
@@ -110,12 +116,12 @@ li .sub-menu-destination .sub-menu,
 /* phone,search,user */
 #header-populated {
   font-size: 25px;
-  line-height: 76px;
+  line-height: 96px;
   display: flex;
   color: #fff;
 }
 #header-populated i {
-  line-height: 76px;
+  line-height: 96px;
   padding: 0 10px;
 }
 
@@ -132,7 +138,7 @@ li .sub-menu-destination .sub-menu,
 }
 
 #header:hover a,
-#header:hover h2,
+#header:hover h1,
 #header:hover span {
   color: black;
 }
