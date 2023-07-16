@@ -5,49 +5,134 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   min-height: 1000px;
 }
 
-#first-look-image {
-  position: relative;
+body .banner-bg {
   width: 100%;
+  position: relative;
 }
 
 #header {
-  height: 80px;
+  width: 100%;
+  height: 76px;
+  padding: 0 15px;
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  cursor: pointer;
+  box-shadow: 0 0.3px #fff;
+  justify-content: space-between;
 }
 
-#header .brand-travel {
-  line-height: 60px;
+#header .logo-brand {
+  padding: 10px;
+  height: 76px;
+}
+
+#header .name-brand {
+  color: #fff;
+  line-height: 76px;
+}
+
+#nav-bar-header {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar-header li {
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+}
+
+#nav-bar-header li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 76px;
+  padding: 0 25px;
+  font-size: 15px;
+}
+
+#nav-bar-header li a {
+  text-transform: uppercase;
+}
+
+#nav-bar-header .destination-btn {
+  position: relative;
   display: flex;
 }
 
-#header .brand-travel .logo-travel {
-  width: 80px;
-  height: 80px;
+#nav-bar-header li .sub-menu-destination {
+  position: absolute;
+  background-color: #fff;
+  padding: 16px 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: none;
 }
 
-.brand-travel h2 {
+/* hover color:orange */
+#nav-bar-header li:hover a,
+#search-user span:hover i,
+.sub-menu-destination div:hover,
+.sub-menu-page div:hover {
+  color: #e46d30;
+}
+
+/* hover hien sub-menu-destination */
+#nav-bar-header li:hover .sub-menu-destination {
+  display: block;
+}
+
+li .sub-menu-destination .sub-menu,
+#nav-bar-header li .sub-menu {
+  padding: 18px;
+}
+
+/* page-btn */
+#nav-bar-header .page-btn {
+  position: relative;
+}
+
+#nav-bar-header li .sub-menu-page {
+  position: absolute;
+  background-color: #fff;
+  padding: 16px 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+/* hover hien sub-menu-page */
+#nav-bar-header li:hover .sub-menu-page {
+  display: block;
+}
+
+/* phone,search,user */
+#header-populated {
+  font-size: 25px;
+  line-height: 76px;
+  display: flex;
   color: #fff;
-  line-height: 80px;
-  font-size: 30px;
-  align-items: center;
-  font-weight: bold;
-  display: inline;
+}
+#header-populated i {
+  line-height: 76px;
+  padding: 0 10px;
 }
 
-#nav-header ul {
+#header-populated .phone-number {
+  font-size: 15px;
 }
 
-#nav-header li {
-  display: inline;
+#header-populated #search-user {
+  padding: 0 10px;
 }
 
-#nav-header li a {
-  color: #fff;
-  text-decoration: none;
+#header:hover {
+  background-color: #f1f1f1;
+}
+
+#header:hover a,
+#header:hover h2,
+#header:hover span {
+  color: black;
 }

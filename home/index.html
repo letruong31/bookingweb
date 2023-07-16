@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -11,33 +18,61 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Japan Travel</title>
   </head>
   <body>
+    <!-- banner -->
     <img
-      id="first-look-image"
+      class="banner-bg"
       src="https://toigingiuvedep.vn/wp-content/uploads/2021/07/hinh-nen-nhat-ban-full-hd-mua-hoa-anh-dao.jpg"
       alt=""
     />
+    <!-- header -->
     <div id="header">
-      <div class="brand-travel">
-        <img
-          class="logo-travel"
-          src="https://o.remove.bg/downloads/37cbc173-7b29-48ec-b851-9be50ce7f048/image-removebg-preview.png"
-          alt=""
-        />
-        <h2 class="logo-name">Japan Travel</h2>
-      </div>
-      <div class="nav-bars">
-        <ul id="nav-header">
-          <li><a href="">Home</a></li>
-          <li><a href="">Tour</a></li>
-          <li><a href="">Destination</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Page</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+      <img class="logo-brand" src="./img/image-removebg-preview.png" alt="" />
+      <h2 class="name-brand">Japan Travel</h2>
+      <!-- button on header -->
+      <ul id="nav-bar-header">
+        <li><a class="btn-nav">Home</a></li>
+        <li><a class="btn-nav" href="">Tour</a></li>
+
+        <!-- hover on Destination -->
+        <li>
+          <a class="destination-btn" class="btn-nav" href="">Destination</a>
+          <div class="sub-menu-destination">
+            <div class="sub-menu">
+              <span>All Destination</span>
+              <i class="fa-solid fa-arrow-right" style="color: #ff780a"></i>
+            </div>
+            <div class="sub-menu">The Golden Route Japan Tour</div>
+            <div class="sub-menu">The Golden Triangle of Japan</div>
+            <div class="sub-menu">Best of Japan Tour</div>
+            <div class="sub-menu">Signature: Essence of Japan</div>
+            <div class="sub-menu">Luxury Japan Tour</div>
+          </div>
+        </li>
+        <!-- end of Destination -->
+
+        <li><a class="btn-nav" href="">Blog</a></li>
+        <li>
+          <a class="page-btn btn-nav" href="">Page</a>
+          <div class="sub-menu sub-menu-page">
+            <div>About us</div>
+          </div>
+        </li>
+        <li><a class="btn-nav" href="">Contact</a></li>
+
+        <!-- phone,search,user -->
+      </ul>
+      <div id="header-populated">
+        <span><i class="fa-solid fa-phone"></i></span>
+        <span><p class="phone-number">0242 242 0777</p></span>
+        <div id="search-user">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span><i class="fa-regular fa-user"></i></span>
+        </div>
       </div>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
