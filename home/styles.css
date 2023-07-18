@@ -5,15 +5,10 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
+  min-height: 3000px;
   font-size: 16px;
   font-weight: 400;
-}
-
-#slideshow-container .slide-fade img {
-  position: relative;
-  width: 100%;
-  height: 640px;
 }
 
 /* fixed header from img */
@@ -26,9 +21,10 @@ body {
   padding: 0 15px;
   display: flex;
   cursor: pointer;
-  box-shadow: 0 0.3px #fff;
+  box-shadow: 0 0.3px #000;
   justify-content: space-evenly;
   background-color: #f1f1f1;
+  z-index: 2;
 }
 
 #header .brand {
@@ -88,6 +84,11 @@ body {
   color: #e46d30;
 }
 
+#nav-bar-header li:hover a {
+  background-color: #ccc;
+  display: block;
+}
+
 /* hover hien sub-menu-destination */
 #nav-bar-header li:hover .sub-menu-destination {
   display: block;
@@ -141,16 +142,109 @@ li .sub-menu-destination .sub-menu,
 } */
 
 /* slider */
-
-#slideshow-container {
+/* slider */
+#slider {
   position: relative;
-  margin: auto;
-  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0px auto;
 }
 
-#slideshow-container .slide img,
-#slideshow-container .slide .text {
-  position: absolute;
-  text-align: center;
-  align-items: center;
+.slider-prev {
+  left: 80px;
 }
+
+.slider-next {
+  right : 80px;
+}
+
+#slider .slider-next,
+#slider .slider-prev {
+  position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 1;
+}
+
+#slider > i:hover {
+  color: #e46d30;
+  background-color: white;
+}
+
+#slider .slider-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#slider .slider-main {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s linear;
+}
+
+.slider-main .slider-item {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  flex: 1 0 100%;
+}
+
+.slider-main .slider-item .slide-img {
+  width: 100%;
+  
+}
+
+.slider-item .text {
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider-item .text h1 {
+  margin-bottom: 10px;
+}
+
+.text .review {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.review .movepage {
+  display: inline-block;
+  padding: 17px 42px;
+  margin-top: 30px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: all 0.3s ease
+}
+
+.review button:hover {
+  background-color: #e46d30;
+  cursor: pointer;
+}
+/* end slider */
+
+/* start form-searching-tour */
+
+
+
+
+

@@ -20,50 +20,6 @@
     />
   </head>
   <body>
-    <!-- slider -->
-    <div id="slideshow-container">
-      <!-- img and text -->
-      <div class="slide">
-        <img class="slide-img" src="./img/slider/tokyo.jpg" alt="" />
-        <div class="text">
-          <h2>Amazing Tour</h2>
-          <h1>Tokyo</h1>
-        </div>
-      </div>
-
-      <div class="slide">
-        <img class="slide-img" src="./img/slider/osaka.jpg" alt="" />
-        <div class="text">
-          <h2>Amazing Tour</h2>
-          <h1>Osaka</h1>
-        </div>
-      </div>
-
-      <div class="slide">
-        <img class="slide-img" src="./img/slider/nara.jpg" alt="" />
-        <div class="text">
-          <h2>Amazing Tour</h2>
-          <h1>Nara</h1>
-        </div>
-      </div>
-
-      <div class="slide-fade">
-        <img class="slide-img" src="./img/slider/kyoto.jpg" alt="" />
-        <div class="text">
-          <h2>Amazing Tour</h2>
-          <h1>Kyoto</h1>
-        </div>
-      </div>
-
-      <!-- button switch slide -->
-      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">
-        &#10094;
-      </button>
-      <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
-        &#10095;
-      </button>
-    </div>
-
     <!-- header -->
     <div id="header">
       <div class="brand">
@@ -112,6 +68,108 @@
         </div>
       </div>
     </div>
+
+    <!-- slider -->
+    <div id="slider">
+      <!-- button next and prev -->
+        <i class="slider-prev fa-solid fa-circle-arrow-left"></i>
+      <!-- img and text -->
+      <div class="slider-wrapper">
+        <div class="slider-main">
+          <div class="slider-item">
+            <div class="text">
+              <h2>Amazing Tour</h2>
+              <h1>Tokyo</h1>
+              <div class="review">
+                <span>1244 reviews |
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  4,5/5
+                </span>
+                <br>
+                <button class="movepage">Take Me There 
+                  <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                </button>
+              </div>
+            </div>
+          <img class="slide-img" src="./img/slider/tokyo.png" alt="" />
+        </div>
+
+        <div class="slider-item">
+          <img class="slide-img" src="./img/slider/osaka.png" alt="" />
+          <div class="text">
+            <h2>Amazing Tour</h2>
+            <h1>Osaka</h1>
+            <div class="review">
+              <span>1023 reviews |
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  4,5/5
+              </span>
+              <br>
+                <button class="movepage">Take Me There 
+                  <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <img class="slide-img" src="./img/slider/nara.png" alt="" />
+          <div class="text">
+            <h2>Amazing Tour</h2>
+            <h1>Nara</h1>
+            <div class="review">
+              <span>1496 reviews |
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  4,5/5
+              </span>
+              <br>
+                <button class="movepage">Take Me There 
+                  <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                </button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="slider-item">
+          <img class="slide-img" src="./img/slider/kyoto.png" alt="" />
+          <div class="text">
+            <h2>Amazing Tour</h2>
+            <h1>Kyoto</h1>
+            <div class="review">
+              <span>1742 reviews |
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  4,5/5
+              </span>
+              <br>
+                <button class="movepage">Take Me There 
+                  <i class="fa-solid fa-arrow-right" style="color: #000"></i>
+                </button>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+        <i class="slider-next fa-solid fa-circle-arrow-right"></i>
+    </div>
+<!-- end of slider -->
+    
 
     <script src="./main.js"></script>
   </body>
