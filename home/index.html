@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- header -->
-    <div id="header">
+    <section id="header">
       <div class="brand">
         <img class="logo-brand" src="./img/logo.png" alt="" />
         <h1 class="name-brand">Japan Travel</h1>
@@ -55,10 +55,11 @@
             <div>About us</div>
           </div>
         </li>
+
         <li><a class="btn-nav" href="">Contact</a></li>
       </ul>
-      <!-- phone,search,user -->
 
+      <!-- phone,search,user -->
       <div id="header-populated">
         <span><i class="fa-solid fa-phone"></i></span>
         <span><p class="phone-number">0242 242 0777</p></span>
@@ -67,15 +68,16 @@
           <span><i class="fa-regular fa-user"></i></span>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- slider -->
-    <div id="slider">
+    <section id="slider">
       <!-- button next and prev -->
         <i class="slider-prev fa-solid fa-circle-arrow-left"></i>
       <!-- img and text -->
       <div class="slider-wrapper">
         <div class="slider-main">
+
           <div class="slider-item">
             <div class="text">
               <h2>Amazing Tour</h2>
@@ -148,6 +150,7 @@
           </div>
           
         </div>
+
         <div class="slider-item">
           <img class="slide-img" src="./img/slider/kyoto.png" alt="" />
           <div class="text">
@@ -175,12 +178,13 @@
         </div>
       </div>
         <i class="slider-next fa-solid fa-circle-arrow-right"></i>
-    </div>
+    </section>
 <!-- end of slider -->
     
 <!-- form select -->
-<div id="form-selection">
+<section id="form-selection">
   <div class="container">
+
     <div class="form-item">
       <i class="fa-solid fa-plane"></i>
       <div class="field-title">Where</div>
@@ -208,14 +212,7 @@
     <div class="form-item">
       <i class="fa-regular fa-calendar"></i>
       <div class="field-title">Date</div>
-      <form name="date-form">
-        <select id="monthdropdown">
-    </select>
-      <select id="daydropdown">
-    </select>
-      <select id="yeardropdown">
-    </select>
-    </form>
+      <input type="date">
     </div>
 
     <div class="form-item">
@@ -238,16 +235,229 @@
 <!-- end form-select-->
 
 <!-- start section explore destination -->
-<div class="explore">
+<section class="explore">
   <div class="section-title">
-    <div class="sectitle">
+    <div class="sec-title">
       explore our tours
     </div>
-    <h2 class="subtitle">
+    <h2 class="sub-title">
       New and Most Popular Tours
     </h2>
   </div>
-</div>
+  <!-- divide separator -->
+  <div class="wrap-divider">
+    <div class="divider-container">
+      <span class="divider-separator"></span>
+    </div>
+  </div>
+  <!-- explore item inner -->
+  <section class="explore-card-container">
+    <div class="cards-inner">
+
+
+      <div class="card-item-inner">
+        <div class="card-img">
+          <img src="./img/cards/tokyotest.jpg" alt="">
+          <div class="card-text">
+            <div class="card-price">
+              <div class="price-info">
+                <label for="">From</label>
+                <span>$143</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-location">
+            <div class="card-title">
+              <span>Tokyo</span>
+              <h2>Tokyo Tour</h2>
+            </div>
+            <div class="card-rate">
+              <div class="day-rate">
+                <i class="fa-solid fa-clock-rotate-left" style="color: #ffffff;"></i>
+                <span>4 days</span>
+              </div>
+              <div class="number-rate">
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <span>4,63/5</span>
+              </div>
+            </div>
+            <br>
+            <a class="more-info-btn" href="">
+              <span>More Information</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item-inner">
+        <div class="card-img">
+          <img src="./img/cards/Osaka.jpg" alt="">
+          <div class="card-text">
+            <div class="card-price">
+              <div class="price-info">
+                <label for="">From</label>
+                <span>$143</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-location">
+            <div class="card-title">
+              <span>Osaka</span>
+              <h2>Osaka Tour</h2>
+            </div>
+            <div class="card-rate">
+              <div class="day-rate">
+                <i class="fa-solid fa-clock-rotate-left" style="color: #ffffff;"></i>
+                <span>4 days</span>
+              </div>
+              <div class="number-rate">
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <span>4,63/5</span>
+              </div>
+            </div>
+            <br>
+            <a class="more-info-btn" href="">
+              <span>More Information</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item-inner">
+        <div class="card-img">
+          <img src="./img/cards/nara.jpg" alt="">
+          <div class="card-text">
+            <div class="card-price">
+              <div class="price-info">
+                <label for="">From</label>
+                <span>$143</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-location">
+            <div class="card-title">
+              <span>Nara</span>
+              <h2>Nara Tour</h2>
+            </div>
+            <div class="card-rate">
+              <div class="day-rate">
+                <i class="fa-solid fa-clock-rotate-left" style="color: #ffffff;"></i>
+                <span>4 days</span>
+              </div>
+              <div class="number-rate">
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <span>4,63/5</span>
+              </div>
+            </div>
+            <br>
+            <a class="more-info-btn" href="">
+              <span>More Information</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item-inner">
+        <div class="card-img">
+          <img src="./img/cards/kyoto.jpg" alt="">
+          <div class="card-text">
+            <div class="card-price">
+              <div class="price-info">
+                <label for="">From</label>
+                <span>$143</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-location">
+            <div class="card-title">
+              <span>Kyoto</span>
+              <h2>Kyoto Tour</h2>
+            </div>
+            <div class="card-rate">
+              <div class="day-rate">
+                <i class="fa-solid fa-clock-rotate-left" style="color: #ffffff;"></i>
+                <span>4 days</span>
+              </div>
+              <div class="number-rate">
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <i class="fa-solid fa-star" style="color: #fff700;"></i>
+                <span>4,63/5</span>
+              </div>
+            </div>
+            <br>
+            <a class="more-info-btn" href="">
+              <span>More Information</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- end explore item inner -->
+
+<section class="list-advantage-container">
+  <div class="list-advantage-items">
+    <div class="list-advantage-item">
+      <div class="box-icon">
+        <i class="fa-solid fa-suitcase"></i>
+      </div>
+      <div class="box-content">
+        <span>Memorable Experiences</span>
+        <p>Browse and book tours and activities so incredible.</p>
+      </div>
+    </div>
+
+    <div class="list-advantage-item">
+      <div class="box-icon">
+        <i class="fa-solid fa-campground"></i>
+      </div>
+      <div class="box-content">
+        <span>Ultimate flexibility</span>
+        <p>You are in control, with free cancellation and payment options.</p>
+      </div>
+    </div>
+
+    <div class="list-advantage-item">
+      <div class="box-icon">
+        <i class="fa-solid fa-binoculars"></i>
+      </div>
+      <div class="box-content">
+        <span>Extended Customization</span>
+        <p>Browse and book tours and activities so incredible.</p>
+      </div>
+    </div>
+
+    <div class="list-advantage-item">
+      <div class="box-icon">
+        <i class="fa-solid fa-clock"></i>
+      </div>
+      <div class="box-content">
+        <span>Customer Satisfaction</span>
+        <p>Browse and book tours and activities so incredible</p>
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
 
 
     <script src="./main.js"></script>
