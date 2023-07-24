@@ -521,7 +521,7 @@
 .body2 .container .firstrow,
 .body2 .container .secondrow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .body2 .container .thumbnail {
