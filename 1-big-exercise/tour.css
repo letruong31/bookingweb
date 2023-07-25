@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body3 {
+    display: flex;
+    gap: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+.cum1 {
+    flex: 3;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.cum2 {
+    flex: 2;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 1px dashed gray;
+}
+
+.body3__smoll1 .body3--address {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-style: italic;
+}
+
+.body3__smoll1 .body3--icon {
+    cursor: pointer;
+}
+
+.body3__smoll1 .body3--icon .body3--smoll:hover {
+    color: orangered;
+}
+
+.body3__smoll1 .body3--icon .body3--smoll {
+    margin-left: 20px;
+}
+
+
+.body3 h1 {
+    font-size: 40px;
+    font-style: none;
+    margin: 30px 0 20px 0;
+}
+
+.body3__smoll1 .body3--img:hover {
+    cursor: pointer;
+}
+
+.body3__smoll1 .body3--img .body3--li {
+    margin: 5px 0 30px 0;
+}
+
+.body3__smoll1 .body3--img .body3--bigimg {
+    position: relative;
+}
+
+.body3__smoll1 .body3--img .body3--smollimg1 {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.body3__smoll1 .body3--img .body3--smollimg1:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.body3__smoll1 .body3--img .body3--smollimg2 {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.body3__smoll1 .body3--img .body3--smollimg2:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.botron {
+    border-radius: 5px;
+    position: relative;
+}
+
+.botron::after {
+    content: "";
+    height: 5px;
+    width: 0;
+    background: orangered;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.botron:hover {
+    cursor: pointer;
+}
+
+.body3__smoll1 .body3--from {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.body3__smoll1 .body3--from .body3--tag {
+    flex-direction: column;
+    border: 1px dashed gray;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 20px;
+}
+
+.body3__smoll1 .body3--181 {
+    color: orangered;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.body3__smoll1 .body3--100 {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.body3__smoll1 .body3--101 {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.body3__smoll1 .body3--101:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+
+.body3__smoll1 .body3--color {
+    color: gray;
+    font-style: italic;
+    cursor: default;
+}
+
+.body3__smoll1 .body3--from .body3--tag:last-child {
+    color: gray;
+    font-style: italic;
+    border-right: none;
+}
+
+.body3__smoll1 .body3--bigstar {
+    display: flex;
+    flex-direction: row;
+}
+
+.star {
+    font-size: 12px;
+    color: gold;
+    padding-right: 7px;   
+}
+
+.body3__smoll1 .body3--img .body--changer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul.body3__smoll1 .body3--img .body--changer img {
+    position: relative;
+}
+
+
+.body3__smoll1 .body3--btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.body3__smoll1 .body3--btn .body3--btnsmoll {
+    font-size: 15px;
+    background-color: orangered;
+    border: none;
+    margin-right: 20px;
+    padding: 12px 48px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: opacity 0.5s;
+}
+
+.body3__smoll1 .body3--btn .body3--btnsmoll:hover {
+    color: white;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.body3__smoll2 p {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: grey;
+}
+
+
+.body3__smoll2 h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 30px 0 20px 0;
+}
+
+.body3__smoll2 .body3--view {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.fa-solid .fa-arrow-right {
+    size: 20px;
+    color: orangered;
+}
+
+
+
+
+
+
+.cum2__book .cum2--h3 {
+    margin: 30px 0 15px 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cum2__book .cum2--date {
+    margin-left: 30px;
+    border: 1px solid grey;
+    padding: 15px 20px;
+    max-width: 300px;
+}
+
+
+
+
+
+
+
+
+.end__smoll {
+    display: flex;
+    margin-top: 150px;
+}
+
+.end__smoll1 {
+    flex: 1;
+    background-color: rgb(243, 236, 236);
+}
+
+.end__smoll2 {
+    flex: 1;
+    background-color: rgb(216, 198, 198);
+}
+
+.end__smoll h3 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.end__smoll p {
+    color: rgb(105, 102, 102);
+    font-style: italic;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.end__smoll1 .end--text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.end__smoll2 .end--ul {
+    display: flex;
+    justify-content: start;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+
+.end__smoll2 .end--botron {
+    border-radius: 50%;
+    filter:grayscale(100%);
+    transition: 1s;
+    max-width: 100%;
+}
+
+.end__smoll2 .end--botron:hover {
+    filter:grayscale(0%);
+    cursor: pointer;
+}
+
+.end__smoll2 .end--changer {
+    display: flex;
+    justify-content: start;
+}
+
+.end__smoll2 .end--btn {
+    background-color: rgb(243, 120, 75);
+}
+
+
+.end__smoll3 {
+    display: flex;
+    border: 1px dashed grey;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.end__smoll3 .end--tinh {
+    border: none;
+}
+
+.end__smoll3 .end--list1 {
+    flex: 2;
+    justify-content: space-around;
+    border: none;
+}
+
+.end__smoll3 .end--bigtinh {
+    flex-direction: column;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end__smoll3 .end--list2 {
+    flex: 1;
+    flex-direction: column;
+    margin-right: 30px;
+    border: none;
+}
+
+
+#tiktok {
+    font-size: 50px;
+    font-family: serif;
+}
+
+.end__smoll3 .end--list2 p {
+    font-style: italic;
+    color: grey;
+}
+
+.end__smoll3 .end--tik {
+    justify-content: end;
+    border: none;
+}
+
+#p3 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+}
+
+#p2 {
+    display: flex;
+    justify-content: end;
+    color: orangered;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#p1 {
+    display: flex;
+    justify-content: end;
+}
+
+.end__smoll4 {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end__smoll4 .end--div1 {
+    font-style: italic;
+    color: grey;
+}
+
+.end__smoll4 .end--div1 strong {
+    color: orangered;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.end__smoll4 .end--div2 a {
+    color: grey;
+    margin-right: 10px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.end__smoll4 .end--div3 i {
+    color: grey;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
